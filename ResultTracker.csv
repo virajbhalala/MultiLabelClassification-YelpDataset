@@ -1,0 +1,6 @@
+Attempts,Library,Model,Train Subset,unabeled data removed,Train size used,Test Subset,unlabeled data removed from train and test,test size used,Tfidf,stopwords removed,unigram,Set threshold to include location containing >5,F1 Score (micro),hamming loss,Jaccard Similarity Score
+1,scikit python,OneVsRest Classifier,10%,No,22991,10%,No,1070,Yes,No,yes,,0.2876,0.71239,0.2876
+2,,,10%,No,22991,100%,No,10702,Yes,No,yes,,0.271,0.7289,0.271
+3,,,100%,No,229907,10%,No,1070,Yes,No,yes,,0.3178,,
+4,,,100%,No,229907,100%,No,10702,Yes,No,yes,,0.3244,,
+,,,10%,No,22991,100%,Yes,10605,Yes,No,yes,,0.28675,,
