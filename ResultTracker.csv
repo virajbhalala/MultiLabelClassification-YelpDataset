@@ -1,8 +1,8 @@
-Attempts,Library,Model,Train Subset,unabeled data removed,Train size used,Test Subset,unlabeled data removed from train and test,test size used,Tfidf,stopwords removed,Lemma,LowerCase,Unigram,Bigram,Trigram,Set threshold to include location containing >5,F1 Score (micro),hamming loss,Jaccard Similarity Score
-1,scikit python,OneVsRest Classifier,10%,No,22991,10%,No,1070,Yes,No,No,No,yes,No,No,,0.2876,0.71239,0.2876
-2,scikit python,OneVsRest Classifier,10%,No,22991,100%,No,10702,Yes,No,No,No,yes,No,No,,0.271,0.7289,0.271
-3,scikit python,OneVsRest Classifier,100%,No,229907,10%,No,1070,Yes,No,No,No,yes,No,No,,0.3178,0.6803,0.3178
-4,scikit python,OneVsRest Classifier,100%,No,229907,100%,No,10702,Yes,No,No,No,yes,No,No,,0.3244,0.6755,0.3244
-6,scikit python,OneVsRest Classifier,10%,No,22991,10%,Yes,1070,Yes,Yes,Yes,Yes,Yes,No,No,,0.3028,0.69719,0.3028
-7,scikit python,OneVsRest Classifier,10%,No,22991,10%,Yes,1070,Yes,Yes,Yes,Yes,Yes,Yes,No,,0.294,0.7056,0.294
-,scikit python,OneVsRest Classifier,10%,No,22991,10%,Yes,1070,Yes,Yes,Yes,Yes,Yes,Yes,Yes,,0.2785,0.7214,0.2785
+Attempts,Library,Model,Train Subset,unabeled data removed,Train size used,Test Subset,unlabeled data removed from train and test,test size used,Tfidf,stopwords removed,Lemma,LowerCase,Unigram,Bigram,Trigram,F1 Score (micro),hamming loss,Jaccard Similarity Score
+1,scikit python,OneVsRest Classifier,10%,No,22991,10%,No,1070,Yes,No,No,No,yes,No,No,0.2876,0.71239,0.2876
+2,scikit python,OneVsRest Classifier,10%,No,22991,100%,No,10702,Yes,No,No,No,yes,No,No,0.271,0.7289,0.271
+3,scikit python,OneVsRest Classifier,100%,No,229907,10%,No,1070,Yes,No,No,No,yes,No,No,0.3178,0.6803,0.3178
+4,scikit python,OneVsRest Classifier,100%,No,229907,100%,No,10702,Yes,No,No,No,yes,No,No,0.3244,0.6755,0.3244
+6,scikit python,OneVsRest Classifier,10%,No,22991,10%,Yes,1070,Yes,Yes,Yes,Yes,Yes,No,No,0.3028,0.69719,0.3028
+7,scikit python,OneVsRest Classifier,10%,No,22991,10%,Yes,1070,Yes,Yes,Yes,Yes,Yes,Yes,No,0.294,0.7056,0.294
+,scikit python,OneVsRest Classifier,10%,No,22991,10%,Yes,1070,Yes,Yes,Yes,Yes,Yes,Yes,Yes,0.2785,0.7214,0.2785
