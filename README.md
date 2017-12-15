@@ -1,6 +1,6 @@
 # Predicting Business Categories From Business Reviews Using Yelp Dataset
 
-CS 430: Text Information System  UIUC
+CS 410: Text Information System  UIUC
 
 Team members and responsibilities
 * **Viraj Bhalala**, Lead (Primarily resonsible for extracting different features from the text data, researching and applying different natural language processing and machine learning techniques, and preparing documents)
